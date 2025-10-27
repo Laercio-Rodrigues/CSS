@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lúmen Coquetelaria Fina</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <h1>Lúmen Coquetelaria</h1>
+        </div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#cardapio">Drinks</a></li>
+                <li><a href="#receitas">Receitas</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+        <button id="menu-toggle" class="menu-toggle">☰</button>
+    </header>
+
+    <main>
+
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h2>A Arte da Mixologia</h2>
+                <p>Descubra coquetéis exclusivos e a paixão por bebidas artesanais.</p>
+                <a href="#cardapio" class="btn-cta">Ver Cardápio</a>
+            </div>
+        </section>
+
+        <section id="cardapio" class="cardapio">
+            <h2>Nossos Drinks Exclusivos</h2>
+            <div class="drinks-grid">
+                <article class="drink-card">
+                    <img src="caminho/para/imagem1.jpg" alt="Nome do Drink 1">
+                    <h3>Nome do Drink 1</h3>
+                    <p>Descrição curta e atraente. Gin, limão, xarope especial.</p>
+                    <button class="btn-detalhes" data-drink-id="drink1">Detalhes</button>
+                </article>
+                </div>
+        </section>
+
+        <section id="receitas" class="receitas">
+            <h2>Receitas e Dicas de Bar</h2>
+            <div class="receitas-lista">
+                <article class="receita-item">
+                    <h3>Como Fazer um Old Fashioned Perfeito</h3>
+                    <p>Dicas sobre os ingredientes certos e a técnica de preparo.</p>
+                    <a href="#" class="btn-ler-mais">Ler Mais</a>
+                </article>
+                </div>
+        </section>
+
+        <section id="sobre" class="sobre">
+            <h2>Nossa História (ou Sobre o Bartender)</h2>
+            <p>Conte a história do seu negócio, sua filosofia de coquetelaria, ou o perfil do especialista.</p>
+            <img src="caminho/para/foto_equipe.jpg" alt="Foto da Equipe/Bartender">
+        </section>
+
+        <section id="contato" class="contato">
+            <h2>Entre em Contato</h2>
+            <p>Endereço: Rua dos Coquetéis, 123 | Telefone: (XX) XXXX-XXXX</p>
+            <form id="contact-form">
+                <input type="text" name="nome" placeholder="Seu Nome" required>
+                <input type="email" name="email" placeholder="Seu Email" required>
+                <textarea name="mensagem" placeholder="Sua Mensagem" required></textarea>
+                <button type="submit" class="btn-submit">Enviar</button>
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Nome do Bar/Especialista. Todos os direitos reservados.</p>
+        <div class="redes-sociais">
+            <a href="URL_INSTAGRAM" target="_blank">Instagram</a> |
+            <a href="URL_FACEBOOK" target="_blank">Facebook</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
